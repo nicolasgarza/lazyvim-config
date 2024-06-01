@@ -20,6 +20,7 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.go" },
     { import = "lazyvim.plugins.extras.ui.alpha" },
     { import = "plugins.nightfox" },
+    { import = "lazyvim.plugins.extras.editor.illuminate" },
     -- import/override with your plugins
     { import = "plugins" },
   },
