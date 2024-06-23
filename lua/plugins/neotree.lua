@@ -7,6 +7,14 @@ return {
         position = "right", -- Opens the NeoTree on the right side of the screen
         width = 40, -- Set the width of the NeoTree window
       },
+      filesystem = {
+        filtered_items = {
+          visible = true,
+          hide_dotfiles = false, -- This setting shows hidden files
+          hide_gitignored = false,
+          hide_hidden = false,
+        },
+      },
     })
   end,
 }
